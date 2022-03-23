@@ -1,0 +1,16 @@
+CREATE TABLE users (
+   idUser INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+   name VARCHAR(30) NOT NULL,
+   surname VARCHAR(30) NOT NULL,
+   username VARCHAR(30) NOT NULL,
+   password VARCHAR(30) NOT NULL,
+   CONSTRAINT unique_username UNIQUE (username)
+);
+
+CREATE TABLE todos (
+   idTodo INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+   title VARCHAR(50) NOT NULL,
+   description VARCHAR NULL,
+   completed BOOLEAN NOT NULL,
+   username VARCHAR(20) NOT NULL
+);

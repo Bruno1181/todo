@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\..\\Downloads\\dataexo"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\..\\Downloads\\exodata-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "exodata-master"
+	}
+}
